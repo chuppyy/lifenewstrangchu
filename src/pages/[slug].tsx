@@ -29,12 +29,15 @@ export default function Page(data: any) {
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-                  <div id="M936537ScriptRootC1576310"></div>
+                  <div id="M936536ScriptRootC1578537"></div>
           <script
-                      src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js"
+                      src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578537.js"
             async
           ></script>
 
+<div id="M936536ScriptRootC1578545"></div>
+<script src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578545.js" async>
+</script>
           <h1>{article.name}</h1>
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
@@ -46,9 +49,9 @@ export default function Page(data: any) {
             />
           </Suspense>
         </div>
-              <div id="M936537ScriptRootC1576309"></div>
+              <div id="M936536ScriptRootC1578542"></div>
         <script
-                  src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576309.js"
+                  src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js"
           async
         ></script>
       </main>
