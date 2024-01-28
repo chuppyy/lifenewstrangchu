@@ -33,10 +33,11 @@ export default function Page(data: any) {
           gtag('config', 'G-72SHJS34XH');
         `}
       </Script>
-      <Script
+     <Script
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
