@@ -17,13 +17,13 @@ export default function Page(data: any) {
         <meta property="og:image" content={article.avatarLink} />
         <meta property="og:title" content={article.name} />
       </Head>
-      <Script id="gg-1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-Y23MD9WKC2`} />
+      <Script id="gg-1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-72SHJS34XH`} />
       <Script id="gg-2" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-Y23MD9WKC2');
+          gtag('config', 'G-72SHJS34XH');
         `}
       </Script>
       <main>
