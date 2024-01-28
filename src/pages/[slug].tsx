@@ -7,9 +7,16 @@ const formatDate = (str: string) => {
   const date = new Date(str);
   return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 };
-
+import { useEffect } from 'react';
 export default function Page(data: any) {
   const article = data.data;
+   useEffect(() => {
+    try {
+       ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
+    } catch (err) {
+      console.log('err2222');
+    }
+  }, []);
   return (
     <>
       <Head>
@@ -26,19 +33,35 @@ export default function Page(data: any) {
           gtag('config', 'G-72SHJS34XH');
         `}
       </Script>
+      <Script
+  id="adsbygoogle-init"
+  strategy="afterInteractive"
+  crossOrigin="anonymous"
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-                  <div id="M936536ScriptRootC1578537"></div>
           <script
-                      src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578537.js"
-            async
-          ></script>
-
-<div id="M936536ScriptRootC1578545"></div>
-<script src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578545.js" async>
-</script>
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
+                    crossOrigin="anonymous"
+                  ></script>
+                 <ins
+                className="adsbygoogle"    
+               style={{ display: 'block' }}
+               data-ad-client="ca-pub-8079422152195086"
+               data-ad-slot="6695725073"
+               data-ad-format="auto"
+               data-full-width-responsive="true"
+              />
+          
+                  
           <h1>{article.name}</h1>
+          <div id="M936536ScriptRootC1578537"></div>
+          <script src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578537.js"
+            async
+          ></script>       
+
+          
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
           </p>
