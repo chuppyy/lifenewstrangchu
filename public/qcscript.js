@@ -1,7 +1,7 @@
 // check width
 window.addEventListener("load", function () {
     console.log("xxxsss", window.innerWidth)
-    var qcImgDiv = document.getElementById('qcImg');
+    var qcImgDiv = document.getElementById('player_dev');
 
 if (player_dev) {
     var scriptElementVideo = document.createElement('script');
