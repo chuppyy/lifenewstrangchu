@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
     console.log("xxxsss", window.innerWidth)
     var qcImgDiv = document.getElementById('qcImg');
 
-if (qcImgDiv) {
+if (player_dev) {
     var scriptElementVideo = document.createElement('script');
 
     // Đặt thuộc tính src của script element
