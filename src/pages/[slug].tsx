@@ -12,7 +12,7 @@ export default function Page(data: any) {
   const article = data.data;
    useEffect(() => {
     try {
-      var qcImgDiv = document.getElementById("player_dev");
+      var qcImgDiv = document.getElementById("qcImg");
  console.log("qcImgDiv",qcImgDiv);
       if (qcImgDiv) {
         var insElement = document.createElement("ins");
