@@ -57,10 +57,7 @@ export default function Page(data: any) {
           
                
           <h1>{article.name}</h1>
-             <div id="M936536ScriptRootC1578537"></div>
-          <script src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578537.js"
-            async
-          ></script>       
+              
 
           
           <p className="mb-4 text-lg">
