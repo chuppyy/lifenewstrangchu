@@ -27,19 +27,19 @@ export default function Page(data: any) {
         qcImgDiv.appendChild(insElement);
       }
 
-       var qcDivqc2 = document.getElementById("qcmgidgb2");
+       var qcDivqc2 = document.getElementById("qcmgidgb3");
         if(qcDivqc2){
             // Tạo một thẻ div mới để chứa script và amp-embed
             var scriptContainer = document.createElement("div");
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M936536ScriptRootC1578545";
+            scriptDiv.id = "M936536ScriptRootC1583645";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578545.js";
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1583645.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -47,6 +47,7 @@ export default function Page(data: any) {
             qcDivqc2.appendChild(scriptContainer);
             qcDivqc2.appendChild(scriptTag);
         }
+      
 
       
       
