@@ -26,6 +26,30 @@ export default function Page(data: any) {
         // Chèn đối tượng ins vào thẻ div
         qcImgDiv.appendChild(insElement);
       }
+
+       var qcDivqc2 = document.getElementById("qcmgidgb2");
+        if(qcDivqc2){
+            // Tạo một thẻ div mới để chứa script và amp-embed
+            var scriptContainer = document.createElement("div");
+
+            // Tạo thẻ div cho script
+            var scriptDiv = document.createElement("div");
+            scriptDiv.id = "M936536ScriptRootC1578545";
+            scriptContainer.appendChild(scriptDiv);
+
+            // Tạo thẻ script
+            var scriptTag = document.createElement("script");
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578545.js";
+            scriptTag.async = true;
+            //  scriptContainer.appendChild(scriptTag);
+
+            // Chèn scriptContainer vào thẻ div "qc"
+            qcDivqc2.appendChild(scriptContainer);
+            qcDivqc2.appendChild(scriptTag);
+        }
+
+      
+      
       if (window.innerWidth <= 500) {
 
         // Giua bai mgid
