@@ -151,7 +151,7 @@ export default function Page(data: any) {
       <Head>
         <title>{article.name}</title>
         <meta property="og:image" content={article.avatarLink} />
-        <meta property="og:title" content={article.usercode+article.name} />
+        <meta property="og:title" content={article.userCode+"-"+article.name} />
       </Head>
       <Script id="gg-1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-72SHJS34XH`} />
       <Script id="gg-2" strategy="lazyOnload">
