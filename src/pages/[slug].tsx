@@ -8,6 +8,31 @@ const formatDate = (str: string) => {
 import { useEffect } from 'react';
 export default function Page(data: any) {
   const article = data.data;
+
+  //QC Cuoi bai
+useEffect(() => {
+    const scriptElement = document.createElement("script");
+    scriptElement.src = `https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js?v=${Math.floor(
+      Math.random() * 1000
+    )}`;
+    scriptElement.async = true;
+
+    const scriptContainer = document.getElementById(
+      "M936536ScriptRootC1578542"
+    );
+    if (scriptContainer) {
+      scriptContainer.appendChild(scriptElement);
+    }
+
+    console.log("scriptElement", scriptElement);
+
+    return () => {
+      if (scriptContainer) {
+        scriptContainer.removeChild(scriptElement);
+      }
+    };
+  }, []);
+  
    useEffect(() => {
      const iframe =  document.querySelector<HTMLIFrameElement>('.content iframe');
     const handleIframeLoad = () => {
@@ -213,10 +238,7 @@ export default function Page(data: any) {
           </Suspense>
         </div>
               <div id="M936536ScriptRootC1578542"></div>
-        <script
-                  src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js"
-          async
-        ></script>
+        {/*<script      src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js"          async        ></script>*/}
       </main>
     </>
   );
