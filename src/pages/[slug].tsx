@@ -12,13 +12,13 @@ export default function Page(data: any) {
   //QC Cuoi bai
 useEffect(() => {
     const scriptElement = document.createElement("script");
-    scriptElement.src = `https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js?v=${Math.floor(
+    scriptElement.src = `https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1603526.js?v=${Math.floor(
       Math.random() * 1000
     )}`;
     scriptElement.async = true;
 
     const scriptContainer = document.getElementById(
-      "M936536ScriptRootC1578542"
+      "M936536ScriptRootC1603526"
     );
     if (scriptContainer) {
       scriptContainer.appendChild(scriptElement);
@@ -72,12 +72,12 @@ useEffect(() => {
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M936536ScriptRootC1583645";
+            scriptDiv.id = "M936536ScriptRootC1603533";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1583645.js";
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1603533.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -101,12 +101,12 @@ useEffect(() => {
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M936536ScriptRootC1578538";
+            scriptDiv.id = "M936536ScriptRootC1603531";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578538.js";
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1603531.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -121,7 +121,7 @@ useEffect(() => {
             ampTag.setAttribute("type", "mgid");
             ampTag.setAttribute("data-publisher", "vbonews.com");
             ampTag.setAttribute("data-widget", "1569695");
-            ampTag.setAttribute("data-container", "M936536ScriptRootC1578538");
+            ampTag.setAttribute("data-container", "M936536ScriptRootC1603531");
             ampTag.setAttribute("data-block-on-consent", "_till_responded");
             scriptContainer.appendChild(ampTag);
 
@@ -143,12 +143,12 @@ useEffect(() => {
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M936536ScriptRootC1578538";
+            scriptDiv.id = "M936536ScriptRootC1603531";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578538.js";
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1603531.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -163,7 +163,7 @@ useEffect(() => {
             ampTag.setAttribute("type", "mgid");
             ampTag.setAttribute("data-publisher", "vbonews.com");
             ampTag.setAttribute("data-widget", "1569695");
-            ampTag.setAttribute("data-container", "M936536ScriptRootC1578538");
+            ampTag.setAttribute("data-container", "M936536ScriptRootC1603531");
             ampTag.setAttribute("data-block-on-consent", "_till_responded");
             scriptContainer.appendChild(ampTag);
 
@@ -237,7 +237,7 @@ useEffect(() => {
             />
           </Suspense>
         </div>
-              <div id="M936536ScriptRootC1578542"></div>
+              <div id="M936536ScriptRootC1603526"></div>
         {/*<script      src="https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1578542.js"          async        ></script>*/}
       </main>
     </>
