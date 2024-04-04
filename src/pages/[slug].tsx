@@ -8,7 +8,6 @@ const formatDate = (str: string) => {
 import { useEffect } from 'react';
 export default function Page(data: any) {
   const article = data.data;
-
   //QC Cuoi bai
 useEffect(() => {
     const scriptElement = document.createElement("script");
